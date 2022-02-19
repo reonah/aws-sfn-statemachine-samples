@@ -1,0 +1,8 @@
+version: '3.6'
+#  DinDやDooDではなく、ホスト（ローカルマシーン）ですべてのコンテナを展開する。
+services:
+  localstack:
+    image: amazon/aws-stepfunctions-local
+    env_file: .env # https://code.visualstudio.com/docs/remote/containers-advanced 
+    ports:
+      - ${SF_PORT}:${SF_PORT}

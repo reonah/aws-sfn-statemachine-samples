@@ -1,0 +1,8 @@
+version: '3'
+
+includes:
+  
+  emr:
+    taskfile: ./emr/
+    dir: ./emr
+  

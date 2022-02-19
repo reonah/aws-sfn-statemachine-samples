@@ -1,0 +1,79 @@
+{
+	"name": "aws-sfn",
+
+	"dockerComposeFile": [
+		"docker-compose.yml",
+		"stepfunctions_local.yml"
+	],
+	"service": "app",
+	"workspaceFolder": "/app",
+
+	"settings": { 
+		"terminal.integrated.defaitProfile.linux": "/bin/bash",
+	},
+
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+
+		//gerenal
+		
+		// bracket のペアのカラー表示 https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2
+		"coenraads.bracket-pair-colorizer-2", 
+		
+		// indent  のカラー表示 https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow
+		"oderwat.indent-rainbow", 
+
+		// markdown preview https://marketplace.visualstudio.com/items?itemName=hnw.vscode-auto-open-markdown-preview
+		"hnw.vscode-auto-open-markdown-preview", 
+
+		// gitlens https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
+		"eamodio.gitlens",
+
+		// YAML https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml
+		"redhat.vscode-yaml",
+
+		// PathAutoComplete https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete
+		"ionutvmi.path-autocomplete",
+
+		// Prettier https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+		"esbenp.prettier-vscode",
+
+		// Todo Tree https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree
+		"gruntfuggly.todo-tree",
+
+		// Todo highlight https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight
+		"wayou.vscode-todo-highlight",
+
+		// DotEnv https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv
+		"mikestead.dotenv",
+
+		// draw.io https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio
+		"hediet.vscode-drawio",
+
+		// docker
+		"ms-azuretools.vscode-docker",
+
+		// AWS
+		
+		// AWS CFn https://marketplace.visualstudio.com/items?itemName=aws-scripting-guy.cform
+		"aws-scripting-guy.cform", 
+		// CFn-lint https://marketplace.visualstudio.com/items?itemName=kddejong.vscode-cfn-lint
+		"kddejong.vscode-cfn-lint",
+
+		"amazonwebservices.aws-toolkit-vscode",
+
+		// 環境依存
+
+		// Vim https://marketplace.visualstudio.com/items?itemName=vscodevim.vim
+		"vscodevim.vim", 
+
+		// Python https://marketplace.visualstudio.com/items?itemName=ms-python.python
+		"ms-python.python",
+		
+		// Python doc string generator https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring
+		"njpwerner.autodocstring",
+		
+		// Better Toml https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml
+		"bungcip.better-toml"
+	],
+}
